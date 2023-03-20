@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1678921662 "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/law_and_cs/main.tex" "main.pdf" "main" 1678921663
-  "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/law_and_cs/main.tex" 1678921663 7232 a5ced3c1948d4150dd9ccf892d870de7 ""
+["pdflatex"] 1679333291 "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/law_and_cs_hw_1/main.tex" "main.pdf" "main" 1679333292
+  "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/law_and_cs_hw_1/main.tex" 1679333291 5395 b4a997f5e86ee6f757f96c06a1f84641 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1598215928 3022 10a3376a8bb3e451b08862d68ba20e28 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_wm6att.enc" 1598215928 3043 d41ff9aa7dbe436e67a5bb272b6d2059 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -116,9 +116,9 @@
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678809284 2826444 4325f336f00a600be1f73f084a6ff30c ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
   "homework.cls" 1678889529 11550 0db0b1c0aa152d6893573ff5e166f9fb ""
-  "main.aux" 1678921663 767 d3d4d51b95b16d6eba753174b81815ef "pdflatex"
+  "main.aux" 1679333292 767 0b1c17c376f3881cc41d7f5f5c1b9f83 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1678921663 7232 a5ced3c1948d4150dd9ccf892d870de7 ""
+  "main.tex" 1679333291 5395 b4a997f5e86ee6f757f96c06a1f84641 ""
   (generated)
   "main.aux"
   "main.log"

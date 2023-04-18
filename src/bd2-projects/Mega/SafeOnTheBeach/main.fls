@@ -1,8 +1,8 @@
-PWD /Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2_exams/Marzo-2023
+PWD /Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2-projects/Mega/SafeOnTheBeach
 INPUT /usr/local/texlive/2022/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2_exams/Marzo-2023/main.tex
+INPUT /Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2-projects/Mega/SafeOnTheBeach/main.tex
 OUTPUT main.log
 INPUT ./homework.cls
 INPUT ./homework.cls

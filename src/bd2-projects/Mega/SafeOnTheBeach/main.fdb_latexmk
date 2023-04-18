@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1681643841 "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2_exams/Marzo-2023/main.tex" "main.pdf" "main" 1681643842
-  "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2_exams/Marzo-2023/main.tex" 1681643838 115 49f97382b0700d5b8bf20399d9ed0906 ""
+["pdflatex"] 1681653098 "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2-projects/Mega/SafeOnTheBeach/main.tex" "main.pdf" "main" 1681653099
+  "/Users/lucian/Documents/GitHub/LaTeX-Notes/src/bd2-projects/Mega/SafeOnTheBeach/main.tex" 1681653097 127 6cbd76567c15e937a98fcc0c255fbd71 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_75t36g.enc" 1598215928 3022 10a3376a8bb3e451b08862d68ba20e28 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/libertinus-type1/lbts_wm6att.enc" 1598215928 3043 d41ff9aa7dbe436e67a5bb272b6d2059 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -115,10 +115,10 @@
   "/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1647878959 4410336 7d30a02e9fa9a16d7d1f8d037ba69641 ""
   "/usr/local/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1678809284 2826444 4325f336f00a600be1f73f084a6ff30c ""
   "/usr/local/texlive/2022/texmf.cnf" 1647878952 577 209b46be99c9075fd74d4c0369380e8c ""
-  "homework.cls" 1681643759 11550 0db0b1c0aa152d6893573ff5e166f9fb ""
-  "main.aux" 1681643842 767 3ad78cd0422d7d7c8279df8a753d39b5 "pdflatex"
+  "homework.cls" 1681645091 11550 0db0b1c0aa152d6893573ff5e166f9fb ""
+  "main.aux" 1681653099 767 3ad78cd0422d7d7c8279df8a753d39b5 "pdflatex"
   "main.out" 0 -1 0 "pdflatex"
-  "main.tex" 1681643838 115 49f97382b0700d5b8bf20399d9ed0906 ""
+  "main.tex" 1681653097 127 6cbd76567c15e937a98fcc0c255fbd71 ""
   (generated)
   "main.aux"
   "main.log"

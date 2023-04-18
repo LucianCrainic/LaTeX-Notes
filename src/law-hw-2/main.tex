@@ -1,0 +1,199 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+ \usepackage{graphicx}
+ \usepackage{titling}
+
+\title{General Data Protection Regulation}
+\author{Lucian Dorin Crainic - 1938430}
+\date{}
+ 
+ \usepackage{fancyhdr}
+\fancypagestyle{plain}{%  the preset of fancyhdr 
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot[L]{\thedate}
+    \fancyhead[L]{Law and Computer Science}
+    \fancyhead[R]{\theauthor}
+}
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 1em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1em%
+    %{\large \@date}%
+  \end{center}%
+  \par
+  \vskip 1em}
+\makeatother
+
+\begin{document}
+
+\newtcbtheorem[]{mytheo}{Example}%
+{colback=blue!5,colframe=blue!55!black!80,fonttitle=\bfseries}{th}
+
+\newtcbtheorem[]{class}{Example}%
+{colback=purple!5,colframe=purple!55!black!80,fonttitle=\bfseries}{th}
+
+\maketitle
+
+\begin{quote}
+  \textit{
+    GDPR stands for \textbf{General Data Protection Regulation}. It 
+    is a regulation in the European Union that governs the collection, use, 
+    and processing of personal data. It was implemented in May 2018 and applies 
+    to all businesses that operate within the EU or process the personal data of 
+    EU citizens, regardless of where the business is based. The regulation aims 
+    to give individuals more control over their personal data and to ensure that 
+    businesses handle personal data responsibly and securely. It also imposes 
+    significant fines for non-compliance.
+  }
+\end{quote}
+
+A brief explanation of the first 4 articles of the GDPR:
+\begin{itemize}
+  \item \textbf{Article 1}: This article establishes the purpose and scope of the GDPR. It applies to the processing of 
+        personal data by controllers and processors in the EU, regardless of whether the processing takes place 
+        in the EU or not.
+  \item \textbf{Article 2}: This article defines key terms used throughout the GDPR, including "personal data," 
+        "processing," "controller," and "processor."
+  \item \textbf{Article 3}: This article outlines the territorial scope of the GDPR. It applies to all businesses 
+        that process personal data of individuals in the EU, regardless of where the business is located.
+  \item \textbf{Article 4}: This article defines key principles of the GDPR, including the principles of lawfulness, 
+        fairness, and transparency in data processing. It also establishes the rights of individuals with 
+        regard to their personal data, such as the right to access and rectify their data.
+\end{itemize}
+
+\begin{quote}
+  \textit{
+  A \textbf{fully automatic machine acting as a judge} could potentially violate the GDPR if it is making decisions based on 
+  personal data that is processed in a way that is not in compliance with GDPR regulations. 
+}
+\end{quote}
+
+One of the main concerns with using automated tools or machines to process personal data is the risk of decisions being 
+made without proper human review or intervention. The GDPR recognizes this risk and includes specific requirements for
+ automated decision-making and profiling. \\
+
+If a fully automatic machine is making decisions about individuals based solely on automated processing 
+(without human review or intervention), the GDPR requires that individuals be informed of this fact, 
+and that they have the right to contest the decision and obtain human intervention. This is particularly important 
+when the decision has a significant impact on the individual’s rights or freedoms, such as decisions about access 
+to employment, credit, or social benefits. \\
+
+Another concern with using automated machines as judges is the potential for bias to be introduced into 
+the decision-making process. Biases can occur in the data used to train the machine or in the way that the 
+machine is designed to weigh certain factors over others. This can result in discriminatory outcomes that violate
+the GDPR’s prohibition on discrimination based on personal data. 
+To mitigate the risk of bias, the GDPR requires that organizations using automated decision-making 
+or profiling take appropriate measures to ensure that the processing is fair, transparent, and 
+non-discriminatory. This can include conducting regular audits of the algorithm, testing for 
+bias, and providing transparency into the data and factors used in the decision-making process. \\
+
+Under the GDPR, individuals have a right to be informed about how their personal data is being used, and they have 
+the right to challenge decisions that are made about them based solely on automated processing.
+
+This means that 
+if a fully automatic machine is making decisions about individuals based on their personal data, the individuals 
+must be informed about the data processing and be given the opportunity to appeal the decisions.
+
+\begin{class}{How a Fully Automatic Machine that acts as a Judge could violate GDPR regulations}{classexample}
+  Let’s say that the machine is making decisions about an individual’s innocence based on their personal data. 
+  If the machine is using inaccurate or outdated data to make those decisions, it could be violating GDPR regulations. 
+  
+  \begin{quote}
+    \textit{This is because the GDPR requires that personal data be accurate and kept up to date, and that individuals have 
+    the right to have their data corrected if it is inaccurate.}
+  \end{quote}
+
+  Another example is if the machine is making decisions about an individual’s employability based solely on their 
+  social media activity. This could potentially violate GDPR regulations, as the machine is processing personal data 
+  in a way that is not proportional to the job requirements or the individual’s privacy expectations. 
+  \begin{quote}
+    \textit{The GDPR requires that personal data be processed for specific and legitimate purposes, and that 
+    it be minimized to what is necessary for those purposes.}
+  \end{quote}
+  
+  If the fully automatic machine is making decisions that have a significant impact on an individual’s rights, 
+  such as denying them access to healthcare or social benefits, the machine must give the individual the opportunity 
+  to contest the decision and provide input on the decision-making process. 
+
+  \begin{quote}
+    \textit{The GDPR requires that individuals 
+    have the right to be informed about automated decision-making processes, and that 
+    they have the right to request human intervention in those processes.}
+  \end{quote}
+\end{class}
+
+It’s important to note that the GDPR is a complex regulation with many requirements, and compliance can be very nuanced depending on the specific processing activities and circumstances involved. Organizations should seek legal advice and guidance to ensure that they are in compliance with GDPR regulations when using automated tools or machines to process personal data.
+
+\begin{class}{How a Fully Automatic Machine that acts as a Judge could respect GDPR regulations}{classexample}
+  Let’s say that the machine is used to assist in the sentencing of individuals convicted of a crime. 
+  The machine is programmed to analyze relevant data, such as the severity of the crime, the individual’s previous 
+  criminal record, and their likelihood of reoffending. \\
+
+  To ensure compliance with GDPR requirements, the court has taken the following steps:
+  \begin{itemize}
+    \item Conduct a data protection impact assessment to identify and mitigate any privacy risks associated with the machine’s processing of personal data.
+    \item Provide clear notice of the use of the machine for sentencing purposes, and the individuals have the right to contest the use of the machine.
+    \item Obtain appropriate consent from individuals for the processing of their personal data.
+    \item Implement measures to ensure that the machine’s processing of personal data is accurate, up-to-date, and relevant to the sentencing process.
+    \item Provide a human review process to ensure that individuals have the opportunity to challenge the automated decisions and provide additional information before the final sentence is set.
+    \item Put in place appropriate technical and organizational measures to ensure the security of personal data processed by the machine.
+  \end{itemize}
+\end{class} 
+
+By taking these steps, the court is able to use the machine as a tool to assist in the sentencing process, 
+while remaining in compliance with GDPR regulations. The machine has been programmed to respect individual 
+privacy rights, ensure accuracy of data, and provide transparency and accountability in the decision-making process. 
+As a result, it enables the court to make sound sentencing decisions while simultaneously respecting the privacy rights
+of individuals.
+
+\begin{mytheo}{Italy bans ChatGPT over Data Privacy Concerns}{theoexample}
+    \begin{quote}
+    \textit{In Europe, citizens personal data is protected by the General Data Protection 
+            Regulation (GDPR), which is incorporated into national data protection laws 
+            of all European Economic Area countries. Compliance with the law is 
+            regulated by national data protection authorities.}
+    \end{quote}
+
+    \begin{quote}
+      \textit{Some regulators say that existing laws, like GDPR, that give users control over their personal information, can apply to the rapidly emerging generative AI companies.}
+    \end{quote}
+
+    The Italian data privacy regulator Garante per la Protezione dei Dati Personali accused OpenAI 
+    of failing to check the age of ChatGPT users and the absence of any legal basis that justifies 
+    the massive collection and storage of personal data to train the chatbot.
+    
+    Italy’s Garante found four problems that ChatGPT violates under the GDPR:
+    \begin{itemize}
+      \item It doesn’t have age control and parental consent systems, so children under the age of 13 could use ChatGPT.
+      \item It can provide information about people that is inaccurate or even untrue.
+      \item People haven’t been informed about their data was collected.
+      \item There is no legal basis for collecting individuals’ personal information massively to train ChatGPT.
+    \end{itemize}
+
+\end{mytheo}
+
+\end{document}

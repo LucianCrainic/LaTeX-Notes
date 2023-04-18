@@ -24,6 +24,7 @@
 > Questi progetti sono stati presi dal archivio del corso presente su MEGA. 
 
 - [SafeOnTheBeach](https://raw.githubusercontent.com/LucianCrainic/LaTeX-Notes/main/src/bd2-projects/Mega/SafeOnTheBeach/main.pdf)
+
 - [Alimentary](https://raw.githubusercontent.com/LucianCrainic/LaTeX-Notes/main/src/bd2-projects/Mega/Alimentary/main.pdf)
 - [Workouts](https://raw.githubusercontent.com/LucianCrainic/LaTeX-Notes/main/src/bd2-projects/Mega/Workouts/main.pdf)
 - [iCare](https://raw.githubusercontent.com/LucianCrainic/LaTeX-Notes/main/src/bd2-projects/Mega/iCare/main.pdf)

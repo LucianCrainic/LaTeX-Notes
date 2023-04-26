@@ -1,0 +1,146 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=20mm,
+ top=20mm,
+ }
+ \usepackage{graphicx}
+ \usepackage{titling}
+
+\title{Pezzotto TV Case}
+\author{Accusation Legal Team}
+\date{}
+ 
+ \usepackage{fancyhdr}
+\fancypagestyle{plain}{%  the preset of fancyhdr 
+    \fancyhf{} % clear all header and footer fields
+    \fancyfoot[L]{\thedate}
+    \fancyhead[L]{Law and Computer Science}
+    \fancyhead[R]{\theauthor}
+}
+\makeatletter
+\def\@maketitle{%
+  \newpage
+  \null
+  \vskip 1em%
+  \begin{center}%
+  \let \footnote \thanks
+    {\LARGE \@title \par}%
+    \vskip 1em%
+    %{\large \@date}%
+  \end{center}%
+  \par
+  \vskip 1em}
+\makeatother
+
+\begin{document}
+
+\newtcbtheorem[]{mytheo}{dasds}%
+{colback=black!5,colframe=black!55!black!80,fonttitle=\bfseries}{th}
+
+\newtcbtheorem[]{class}{Example}%
+{colback=purple!5,colframe=purple!55!black!80,fonttitle=\bfseries}{th}
+
+\newtcolorbox{my theorem}[1]{
+colback=black!5,colframe=black!55!black!80,fonttitle=\bfseries, title={#1}}
+
+\maketitle
+
+Mr. John Doe is accused of the crime of infringement of copyright having distributed and sold 
+devices or elements of special decoding which allows access to an encrypted service without 
+paying the fee to the corresponding companies but by acquiring the payment itself.
+More precisely, we are referring to Pezzotto TV, with which is pointed to an illegal 
+decoder which has the function of downloading and receiving private IPTV at the cost of 
+a few euros per month. On the basis of all of this we find Mr. John Doe, who obtains the  
+transmision signal from an original subscription for each platform and which, 
+after extrapolating it, transmits it illegally to his subscribers. 
+
+\hfill \break
+The use of a modified decoder for carrying out this operation makes the accused Mr. John Doe 
+punishable under the law of computer fraud, article 640-ter:
+\begin{my theorem}{Art. 640 - ter}
+  Any alteration of an electronic, 
+  computer or telematic device by intervening in any way on data, information or programs 
+  contained therein, without the right to do so, procuring for oneself or others an unjust 
+  profit with damage to others.
+\end{my theorem}
+
+with an aggravating circumstance determined for profit, article 61, paragraph 7: 
+
+\begin{my theorem}{Art. 61 - paragraph 7}
+  Having caused the victim of the crime a serious patrimonial 
+  damage in crimes against property, or that in any case offend the property, or in crimes 
+  motivated by profit.
+\end{my theorem}
+
+and for the crime of unauthorized access to a computer system, article 615-ter: 
+
+\begin{my theorem}{Art. 615-ter}
+  Unauthorized introduction to a computer or telematic system protected
+  by security measures, against the expressed or tacit will of those who have the right 
+  to exclude it.
+\end{my theorem}
+
+\hfill \break
+Watching films, sporting events or TV series illegally necessarily implies a violation of 
+copyright, for example the law that aims to protect those who create a work, and in particular 
+art. 171 ter lett. f: 
+\begin{my theorem}{Art. 171 ter lett. f}
+  Punishes anyone who manufactures, imports, distributes, sells, rents, 
+  gives for any reason, advertises for sale or rental, or holds for commercial purposes, equipment, 
+  products or components or provides services that have the prevailing purpose or commercial use to 
+  avoid effective technological measures pursuant to art. 102 quater, or which are primarily designed,
+  manufactured, adapted or performed for the purpose of enabling or facilitating the circumvention 
+  of said measures. These technological measures shall comprise the measures that are applied or 
+  that remain after certain measures are removed by rightholders voluntarily or by virtue of 
+  agreements with the beneficiaries of exceptions, or in compliance with an injunction by 
+  an administrative or judicial authority.
+\end{my theorem}
+
+and at the same time the art. 171-octies:
+\begin{my theorem}{Art. 171 - octies}
+  Whoever produces, sales, imports, promotes, installs, modifies, or uses, either 
+  for personal or public use, with fraudulent purposes, devices or parts of devices 
+  meant to decode conditional-access audiovisual transmissions which have been broadcast 
+  by air, satellite or cable, whether in analogue or digital form, shall be punished.
+\end{my theorem}
+
+
+Thanks to the help of the police, who collected evidence through IP tracing, requesting data 
+from local and national Internet Service Providers and reviewing some suspicious electronic 
+payments to Pezzotto TV made by unknown users, it was possible to bring the accusation. 
+Furthermore, the investigations were also useful for bringing light into the operating 
+methods of the criminal association, described as a pyramid-shaped structure, at the 
+top of which are subjects who, although not knowing each other directly, establish mutual 
+ties to achieve the criminal purpose. According to the reconstruction of the investigators, 
+the main phases of the criminal scheme include:
+\begin{enumerate}
+  \item Legitimate purchase of copyrighted content in the form of digital signals by the top of the
+        pyramid (they are referred to as Sources).
+  \item Transformation of the contents thus acquired into IT data, through a complex technical 
+        and organizational infrastructure.
+  \item Broadcast of computer data in the form of audio/video streams through an articulated 
+        network of resellers and end users equipped with an internet connection and special 
+        equipment - commonly known as Pezzotto. To sell subscriptions, the criminal 
+        network made use of bots, channels, groups, forums and blogs that
+        advertised the offer on the Net; messages were also conveyed via Telegram and social networks.
+\end{enumerate}
+
+\hfill \break
+Mr. John Doe is required to be present in date 03/05/2023 in the courtroom 02 of Università degli Studi di Roma La Sapienza, Castro Laurenziano street, 7.
+\end{document}

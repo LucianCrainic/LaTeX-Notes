@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1682896130 "/Users/lucian/Documents/GitHub/struggling-student/LaTeX-Notes/src/ai-lab/main.tex" "main.pdf" "main" 1682896132
-  "/Users/lucian/Documents/GitHub/struggling-student/LaTeX-Notes/src/ai-lab/main.tex" 1682896129 13076 b74697d9963e5a4582a2d715ce705b88 ""
+["pdflatex"] 1682896546 "/Users/lucian/Documents/GitHub/struggling-student/LaTeX-Notes/src/ai-lab/main.tex" "main.pdf" "main" 1682896548
+  "/Users/lucian/Documents/GitHub/struggling-student/LaTeX-Notes/src/ai-lab/main.tex" 1682896545 13127 eb42baa2c72304ecd03a15886eacc494 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -146,9 +146,9 @@
   "images/filters_2.png" 1682858180 493688 4f45cb05151fde5593b13ff72553d2c3 ""
   "images/ss.png" 1682517428 22156 b770bcc8f6b19b24f24d13967698ae57 ""
   "images/ts.png" 1682517428 20061 015007a36f759ac0e8148666d7d2907c ""
-  "main.aux" 1682896132 2293 0fa1a98f4ec77721fca67b2ca3d96995 "pdflatex"
-  "main.out" 1682896132 1897 a165733b5147ab8003411082da380ae9 "pdflatex"
-  "main.tex" 1682896129 13076 b74697d9963e5a4582a2d715ce705b88 ""
+  "main.aux" 1682896548 2293 0fa1a98f4ec77721fca67b2ca3d96995 "pdflatex"
+  "main.out" 1682896548 1897 a165733b5147ab8003411082da380ae9 "pdflatex"
+  "main.tex" 1682896545 13127 eb42baa2c72304ecd03a15886eacc494 ""
   (generated)
   "main.aux"
   "main.log"
